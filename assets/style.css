@@ -45,7 +45,7 @@ header.site{
 .search .icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:14px}
 
 .nav{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;flex:1 1 100%}
-.nav > a{
+.nav a{
   text-decoration:none;font-size:14px;padding:6px 10px;border-radius:999px;
   border:1px solid var(--line);background:var(--bg2);font-weight:700;
 }
@@ -135,22 +135,30 @@ footer.site-footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:
 
 @media (max-width:900px){.grid{grid-template-columns:1fr}.kpis{grid-template-columns:1fr}}
 @media (max-width: 640px) {
-  .header-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
-  .search { width: 100%; max-width: 100%; }
+  .nav a, .dropdown-btn { font-size:13px; padding:6px 10px; border-radius:10px; }
+  .brand .logo { width:30px;height:30px;font-size:14px;border-radius:8px; }
+}
+
   .nav { width: 100%; gap:6px; }
   .nav a, .dropdown-btn { font-size:13px; padding:6px 10px; border-radius:10px; }
   .brand .logo { width:30px;height:30px;font-size:14px;border-radius:8px; }
 }
 
 
-/* --- v4 fixes: prevent dropdown content from spilling on mobile --- */
-.dropdown-panel{display:none !important;}
-.dropdown.open > .dropdown-panel{display:block !important;}
-/* dropdown links shouldn't look like nav pills */
-.nav .dropdown-panel a{
-  border:none !important;
-  background:transparent !important;
-  padding:8px 10px !important;
-  border-radius:10px !important;
-  font-weight:600 !important;
+/* --- v5 mobile header layout: nav left, language right --- */
+@media (max-width: 640px){
+  .header-inner{
+    display:grid;
+    grid-template-columns:1fr auto;
+    grid-template-areas:
+      "brand brand"
+      "search search"
+      "nav lang";
+    align-items:center;
+    gap:8px;
+  }
+  .brand{grid-area:brand}
+  .search{grid-area:search}
+  .nav{grid-area:nav; margin-left:0; flex:0 0 auto}
+  .lang{grid-area:lang; margin-left:0; justify-self:end}
 }
