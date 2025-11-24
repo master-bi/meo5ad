@@ -272,3 +272,31 @@ footer.site-footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:
   .search{max-width:190px}
   .brand .title{font-size:17px}
 }
+
+
+/* --- v9: ultra-compact mobile search, never collides with title --- */
+@media (max-width: 640px){
+  .header-inner{
+    grid-template-columns:auto auto; /* brand won't be squeezed by search */
+  }
+  .search{
+    max-width:165px;
+    justify-self:end;
+  }
+  .search input{
+    height:32px;
+    padding:5px 8px 5px 26px;
+    font-size:12px;
+  }
+  .search .icon{left:7px;font-size:11px}
+  .brand .title{
+    line-height:1.2;
+    max-width:100%;
+  }
+}
+
+/* tiny phones */
+@media (max-width: 380px){
+  .search{max-width:145px}
+  .brand .title{font-size:16px}
+}
