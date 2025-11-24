@@ -42,34 +42,40 @@
   goBtn.addEventListener("click", () => window.location.href = REDIRECT_URL);
 })();
 
-(function () {
-  const header = document.querySelector("header.site");
-  if (!header) return;
-  let lastY = window.scrollY;
-  let ticking = false;
-  function onScroll() {
-    const y = window.scrollY;
-    if (y < 40) { header.classList.remove("compact"); lastY = y; return; }
-    if (y > lastY + 6) header.classList.add("compact");
-    else if (y < lastY - 6) header.classList.remove("compact");
-    lastY = y;
-  }
-  window.addEventListener("scroll", () => {
-    if (!ticking) {
-      window.requestAnimationFrame(() => { onScroll(); ticking = false; });
-      ticking = true;
-    }
-  }, { passive: true });
-})();
 
+
+// Language auto-redirect ONLY when no explicit language is set on <body>
 (function(){
+  const bodyLang = document.body.dataset.lang || "";
+  if (bodyLang) return; // already in a language namespace
   const lang = (navigator.language||"").toLowerCase();
   const path = location.pathname;
-  if (/^\/(en|vi|ms|km|zh-hans|yue)\//.test(path)) return;
+  // run only on site root ("/" or "/index.html")
+  if (!(path === "/" || path.endsWith("/index.html"))) return;
+
   if (lang.startsWith("en")) location.replace("/en/");
   else if (lang.startsWith("vi")) location.replace("/vi/");
   else if (lang.startsWith("ms")) location.replace("/ms/");
   else if (lang.startsWith("km")) location.replace("/km/");
-  else if (lang.startsWith("zh-cn") || lang.startsWith("zh-sg")) location.replace("/zh-hans/");
+  else if (lang.startsWith("zh-cn") || lang.startsWith("zh-sg") || lang.startsWith("zh-hans")) location.replace("/zh-hans/");
   else if (lang.includes("zh-hk") || lang.includes("yue")) location.replace("/yue/");
+})();
+
+// Dropdown toggles
+(function(){
+  function setupDropdown(sel){
+    document.querySelectorAll(sel).forEach(dd=>{
+      const btn=dd.querySelector('.dropdown-btn');
+      if(!btn) return;
+      btn.addEventListener('click', (e)=>{
+        e.stopPropagation();
+        dd.classList.toggle('open');
+        document.querySelectorAll(sel+'.open').forEach(o=>{ if(o!==dd) o.classList.remove('open'); });
+      });
+    });
+  }
+  setupDropdown('.dropdown');
+  document.addEventListener('click', ()=>{
+    document.querySelectorAll('.dropdown.open').forEach(dd=>dd.classList.remove('open'));
+  });
 })();
