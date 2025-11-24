@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>正在為您導向最佳入口…</title>
+<meta name="robots" content="noindex, nofollow" />
+<style>
+body {
+  margin: 0; background: #0f172a; color: #fff; font-family: system-ui, -apple-system;
+  display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;
+}
+.box { max-width: 320px; }
+.loader {
+  margin: 20px auto; width: 40px; height: 40px; border: 4px solid rgba(255,255,255,0.3);
+  border-top-color: #fff; border-radius: 50%; animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div class="box">
+  <h2>正在為您自動分流…</h2>
+  <p>請稍候 1–2 秒</p>
+  <div class="loader"></div>
+</div>
+<script>
+const ENDPOINTS = {
+  tw: "https://ag223.gm89.net/login?id=register",
+  hk: "https://fbads.ds88hk.net/login?id=register",
+  my: "https://fbads.ofa168my.com/login?id=register",
+  kh: "https://fbads.ofa88kh.com/login?id=register",
+};
+const lang = (navigator.language || "").toLowerCase();
+async function detectCountry() {
+  try {
+    const res = await fetch("https://ipapi.co/json/");
+    const data = await res.json();
+    return data.country_code?.toLowerCase() || "";
+  } catch (e) {
+    return "";
+  }
+}
+function redirectTo(url) { setTimeout(() => { window.location.href = url; }, 500); }
+(async () => {
+  let country = await detectCountry();
+  if (country === "tw") return redirectTo(ENDPOINTS.tw);
+  if (country === "hk") return redirectTo(ENDPOINTS.hk);
+  if (country === "my") return redirectTo(ENDPOINTS.my);
+  if (country === "kh") return redirectTo(ENDPOINTS.kh);
+
+  if (lang.includes("zh") || lang.includes("tw")) return redirectTo(ENDPOINTS.tw);
+  if (lang.includes("hk") || lang.includes("yue")) return redirectTo(ENDPOINTS.hk);
+  if (lang.includes("ms")) return redirectTo(ENDPOINTS.my);
+  if (lang.includes("km")) return redirectTo(ENDPOINTS.kh);
+
+  redirectTo(ENDPOINTS.tw);
+})();
+</script>
+</body>
+</html>
