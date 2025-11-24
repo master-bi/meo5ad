@@ -1,0 +1,98 @@
+{
+  "pages": [
+    {
+      "url": "/slot/rtp-guide.html",
+      "title": "老虎機 RTP 是什麼？新手 3 分鐘看懂",
+      "desc": "用最簡單方式解釋 RTP、怎麼看、怎麼用來選台。",
+      "tags": [
+        "slot",
+        "rtp",
+        "回報率"
+      ]
+    },
+    {
+      "url": "/slot/volatility.html",
+      "title": "波動度是什麼？高低波動差在哪",
+      "desc": "了解高低波動的節奏差異與適合人群。",
+      "tags": [
+        "slot",
+        "volatility",
+        "波動度"
+      ]
+    },
+    {
+      "url": "/live/baccarat-guide.html",
+      "title": "百家樂怎麼玩？新手規則總整理",
+      "desc": "百家樂的基本規則、牌面計算與入門重點。",
+      "tags": [
+        "live",
+        "baccarat",
+        "百家樂"
+      ]
+    },
+    {
+      "url": "/live/baccarat-myth.html",
+      "title": "百家樂 5 個常見迷思",
+      "desc": "拆解新手常見的路單與連莊迷思。",
+      "tags": [
+        "live",
+        "baccarat",
+        "迷思"
+      ]
+    },
+    {
+      "url": "/lottery/types.html",
+      "title": "常見彩種類型與差異",
+      "desc": "快速型、傳統型彩種的玩法結構比較。",
+      "tags": [
+        "lottery",
+        "彩種"
+      ]
+    },
+    {
+      "url": "/lottery/draw-mechanism.html",
+      "title": "開獎機制與隨機原理",
+      "desc": "中性解釋彩種隨機生成與獨立事件概念。",
+      "tags": [
+        "lottery",
+        "rng"
+      ]
+    },
+    {
+      "url": "/sports/odds.html",
+      "title": "賠率是什麼？三種常見表示法",
+      "desc": "十進位、分數式、美式賠率介紹。",
+      "tags": [
+        "sports",
+        "odds"
+      ]
+    },
+    {
+      "url": "/sports/handicap.html",
+      "title": "讓分 / 大小分是什麼？",
+      "desc": "中性解釋讓分與大小分的概念。",
+      "tags": [
+        "sports",
+        "handicap"
+      ]
+    },
+    {
+      "url": "/guide/rng.html",
+      "title": "RNG 是什麼？為何結果是隨機的",
+      "desc": "了解隨機數生成器與獨立事件。",
+      "tags": [
+        "guide",
+        "rng"
+      ]
+    },
+    {
+      "url": "/guide/return-rate.html",
+      "title": "回報率與期望值怎麼看？",
+      "desc": "回報率與期望值的長短期差異。",
+      "tags": [
+        "guide",
+        "return"
+      ]
+    }
+  ]
+}
