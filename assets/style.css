@@ -162,3 +162,31 @@ footer.site-footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:
   .nav{grid-area:nav; margin-left:0; flex:0 0 auto}
   .lang{grid-area:lang; margin-left:0; justify-self:end}
 }
+
+
+/* --- v6 header refinements --- */
+.search{max-width:300px}
+.search input{padding:7px 10px 7px 30px;font-size:13px}
+.search .icon{left:9px;font-size:13px}
+
+/* make nav/ lang align nicer */
+.nav{align-items:center}
+.lang{align-items:center}
+
+/* v6 mobile grid: brand + search same row, nav + lang same row */
+@media (max-width: 640px){
+  .header-inner{
+    display:grid;
+    grid-template-columns:auto 1fr;
+    grid-template-areas:
+      "brand search"
+      "nav lang";
+    align-items:center;
+    gap:8px 10px;
+  }
+  .brand{grid-area:brand}
+  .search{grid-area:search; width:100%; max-width:none}
+  .search input{height:36px}
+  .nav{grid-area:nav; width:auto; justify-self:start}
+  .lang{grid-area:lang; justify-self:end}
+}
