@@ -125,6 +125,42 @@
       "tags": [
         "sports"
       ]
+    },
+    {
+      "url": "/guide/why-rare-outcomes-happen.html",
+      "title": "為什麼「冷門結果」仍會常常發生？",
+      "desc": "解釋為什麼機率看起來很低的冷門結果，在隨機系統裡仍然會不斷出現。",
+      "tags": [
+        "guide",
+        "深度教學"
+      ]
+    },
+    {
+      "url": "/guide/expected-value.html",
+      "title": "什麼是期望值？玩家最常理解錯的關鍵",
+      "desc": "用白話方式說明期望值的真正含義，澄清常見迷思。",
+      "tags": [
+        "guide",
+        "深度教學"
+      ]
+    },
+    {
+      "url": "/guide/risk-management.html",
+      "title": "如何控制風險？從資金、節奏到心態的完整框架",
+      "desc": "從資金、節奏與心態三個層面拆解風險管理。",
+      "tags": [
+        "guide",
+        "深度教學"
+      ]
+    },
+    {
+      "url": "/guide/short-term-vs-skill.html",
+      "title": "為什麼短期輸贏不代表能力？",
+      "desc": "深度解析短期結果、波動與真實實力之間的差異。",
+      "tags": [
+        "guide",
+        "深度教學"
+      ]
     }
   ]
 }
