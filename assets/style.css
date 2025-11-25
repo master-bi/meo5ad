@@ -324,3 +324,14 @@ footer.site-footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:
   .search{max-width:108px; min-width:108px;}
   .search input{font-size:11px;}
 }
+
+
+/* --- v11: mobile nav left aligned (home/category) --- */
+@media (max-width: 640px){
+  .nav{
+    justify-self:start !important;
+    justify-content:flex-start !important;
+    margin-left:0 !important;
+    width:auto !important;
+  }
+}
