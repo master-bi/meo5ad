@@ -127,39 +127,83 @@
       ]
     },
     {
-      "url": "/guide/why-rare-outcomes-happen.html",
-      "title": "為什麼「冷門結果」仍會常常發生？",
-      "desc": "解釋為什麼機率看起來很低的冷門結果，在隨機系統裡仍然會不斷出現。",
+      "url": "/slot/lines-vs-ways-vs-megaways.html",
+      "title": "多線/多Ways/Megaways 完整差異解析",
+      "desc": "多線/多Ways/Megaways 完整差異解析",
       "tags": [
-        "guide",
-        "深度教學"
+        "slot"
       ]
     },
     {
-      "url": "/guide/expected-value.html",
-      "title": "什麼是期望值？玩家最常理解錯的關鍵",
-      "desc": "用白話方式說明期望值的真正含義，澄清常見迷思。",
+      "url": "/slot/free-spin-mechanics.html",
+      "title": "Free Spin 爆機五大關鍵",
+      "desc": "Free Spin 爆機五大關鍵",
       "tags": [
-        "guide",
-        "深度教學"
+        "slot"
       ]
     },
     {
-      "url": "/guide/risk-management.html",
-      "title": "如何控制風險？從資金、節奏到心態的完整框架",
-      "desc": "從資金、節奏與心態三個層面拆解風險管理。",
+      "url": "/live/how-baccarat-works.html",
+      "title": "真人百家樂運作原理解析",
+      "desc": "真人百家樂運作原理解析",
       "tags": [
-        "guide",
-        "深度教學"
+        "live"
       ]
     },
     {
-      "url": "/guide/short-term-vs-skill.html",
-      "title": "為什麼短期輸贏不代表能力？",
-      "desc": "深度解析短期結果、波動與真實實力之間的差異。",
+      "url": "/live/roadmap-truth.html",
+      "title": "路單與走勢的真相",
+      "desc": "路單與走勢的真相",
       "tags": [
-        "guide",
-        "深度教學"
+        "live"
+      ]
+    },
+    {
+      "url": "/live/common-mistakes-risk.html",
+      "title": "真人玩法常見誤區",
+      "desc": "真人玩法常見誤區",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "url": "/live/table-selection-and-rhythm.html",
+      "title": "如何選桌與掌握節奏",
+      "desc": "如何選桌與掌握節奏",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "url": "/egames/how-egames-work.html",
+      "title": "電子遊戲底層運作機制",
+      "desc": "電子遊戲底層運作機制",
+      "tags": [
+        "egames"
+      ]
+    },
+    {
+      "url": "/egames/how-to-choose-egame.html",
+      "title": "電子遊戲選台指南",
+      "desc": "電子遊戲選台指南",
+      "tags": [
+        "egames"
+      ]
+    },
+    {
+      "url": "/egames/egames-myths-and-truths.html",
+      "title": "電子遊戲迷思大全",
+      "desc": "電子遊戲迷思大全",
+      "tags": [
+        "egames"
+      ]
+    },
+    {
+      "url": "/egames/egames-rhythm-management.html",
+      "title": "電子遊戲節奏管理",
+      "desc": "電子遊戲節奏管理",
+      "tags": [
+        "egames"
       ]
     }
   ]
