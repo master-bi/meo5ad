@@ -336,3 +336,20 @@ footer.site-footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:
     width:auto !important;
   }
 }
+
+
+/* v22: ensure modal primary button text is perfectly centered */
+.modal .btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+/* v22: prevent mobile category dropdown from overflowing to the left */
+@media (max-width:640px){
+  .nav .dropdown .dropdown-panel{
+    left:0;
+    right:auto;
+  }
+}
