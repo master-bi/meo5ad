@@ -88,7 +88,7 @@ h1{font-size:28px;margin:4px 0 6px}
 .card{
   background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);
   transition:transform .15s ease, box-shadow .15s ease;
-}
+ display:block; }
 .card:hover{transform:translateY(-2px);box-shadow:var(--shadow2)}
 .card h2{font-size:18px;margin:0 0 6pxword-break:break-word;}
 .card p{margin:0 0 8px;color:#1f2937word-break:break-word;}
@@ -353,14 +353,15 @@ footer.site-footer{margin-top:14px;color:var(--muted);font-size:12px;text-align:
   width:100%;
 }
 
-/* v23: mobile category dropdown sizing & position */
+/* v24: mobile category dropdown sizing & position */
 @media (max-width:640px){
   .nav .dropdown .dropdown-panel{
-    right:0;
-    left:auto;
-    max-width:260px;
-    width:80vw;
+    left:12px;
+    right:auto;
+    max-width:230px;
+    width:70vw;
   }
 }
+
 
 }
