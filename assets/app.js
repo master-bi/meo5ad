@@ -79,3 +79,86 @@
     document.querySelectorAll('.dropdown.open').forEach(dd=>dd.classList.remove('open'));
   });
 })();
+
+// CTA + modal multi-language text
+(function(){
+  const ctaFab = document.getElementById("ctaFab");
+  const modal = document.getElementById("modal");
+  const goBtn = document.getElementById("goBtn");
+  const closeBtn = document.getElementById("closeBtn");
+  if (!ctaFab || !modal || !goBtn || !closeBtn) return;
+
+  var path = location.pathname || "/";
+  var lang = "zh-Hant";
+  if (path.indexOf("/en/") === 0) lang = "en";
+  else if (path.indexOf("/vi/") === 0) lang = "vi";
+  else if (path.indexOf("/ms/") === 0) lang = "ms";
+  else if (path.indexOf("/km/") === 0) lang = "km";
+  else if (path.indexOf("/zh-hans/") === 0) lang = "zh-Hans";
+  else if (path.indexOf("/yue/") === 0) lang = "yue";
+
+  var packs = {
+    "zh-Hant": {
+      cardButton: "前往官方入口",
+      title: "準備好開始體驗了嗎？",
+      body: "點擊下方按鈕進入官方入口，系統會依你的地區自動分流到合適站點。",
+      primary: "進入官方入口",
+      secondary: "我再看看"
+    },
+    "en": {
+      cardButton: "Go to official entry",
+      title: "Ready to start playing?",
+      body: "Tap the button below to enter the official entry. We’ll automatically route you to the best site for your region.",
+      primary: "Enter official site",
+      secondary: "Maybe later"
+    },
+    "vi": {
+      cardButton: "Vào cổng chính thức",
+      title: "Sẵn sàng bắt đầu trải nghiệm chưa?",
+      body: "Nhấn nút bên dưới để vào cổng chính thức, hệ thống sẽ tự động chuyển bạn tới trang phù hợp với khu vực của bạn.",
+      primary: "Vào cổng chính thức",
+      secondary: "Xem thêm đã"
+    },
+    "ms": {
+      cardButton: "Masuk laman rasmi",
+      title: "Sedia untuk mula bermain?",
+      body: "Tekan butang di bawah untuk masuk ke laman rasmi. Sistem akan menghantar anda ke laman yang sesuai dengan kawasan anda secara automatik.",
+      primary: "Masuk laman rasmi",
+      secondary: "Nanti dulu"
+    },
+    "km": {
+      cardButton: "ចូលទៅគេហទំព័រផ្លូវការ",
+      title: "តើអ្នករួចរាល់ដើម្បីចាប់ផ្តើមបទពិសោធន៍ឬនៅ?",
+      body: "ចុចប៊ូតុងខាងក្រោមដើម្បីចូលទៅកាន់ច្រកផ្លូវការ ប្រព័ន្ធនឹងបញ្ជូនអ្នកទៅគេហទំព័រដែលសមស្របតាមតំបន់របស់អ្នក។",
+      primary: "ចូលផ្លូវការ",
+      secondary: "មើលបន្តទៀតសិន"
+    },
+    "zh-Hans": {
+      cardButton: "前往官网入口",
+      title: "准备好开始体验了吗？",
+      body: "点击下方按钮进入官网入口，系统会根据你的地区自动分流到适合站点。",
+      primary: "进入官网入口",
+      secondary: "再看看"
+    },
+    "yue": {
+      cardButton: "前往官方入口",
+      title: "準備好開始體驗未？",
+      body: "撳下面個掣進入官方入口，系統會按你所在地區自動帶你去合適站點。",
+      primary: "進入官方入口",
+      secondary: "再睇一陣"
+    }
+  };
+
+  var p = packs[lang] || packs["zh-Hant"];
+
+  ctaFab.textContent = p.cardButton;
+  ctaFab.setAttribute("aria-label", p.cardButton);
+
+  var h4 = modal.querySelector("h4");
+  var msg = modal.querySelector("p");
+  if (h4) h4.textContent = p.title;
+  if (msg) msg.textContent = p.body;
+
+  goBtn.textContent = p.primary;
+  closeBtn.textContent = p.secondary;
+})();
