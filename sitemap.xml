@@ -1,393 +1,339 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://meo5ad.com/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/404.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/egames/egames-myths-and-truths.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/egames/egames-rhythm-management.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/egames/how-egames-work.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/egames/how-to-choose-egame.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/en/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/en/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/en/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/en/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/en/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/en/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/en/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/en/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/en/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/en/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/en/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/en/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/vi/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/basics-deep.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/vi/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/basics.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/vi/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/expected-value.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/vi/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/return-rate.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/vi/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/risk-management.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/vi/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/rng.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/ms/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/short-term-vs-skill.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/ms/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/guide/why-rare-outcomes-happen.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/ms/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/km/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/ms/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/km/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/ms/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/km/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/ms/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/km/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/km/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/km/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/km/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/km/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/km/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/km/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/baccarat-basics-deep.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/km/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/baccarat-guide.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/km/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/baccarat-myth.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/zh-hans/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/baccarat.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/zh-hans/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/common-mistakes-risk.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/zh-hans/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/how-baccarat-works.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/zh-hans/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/roadmap-truth.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/zh-hans/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/live/table-selection-and-rhythm.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/zh-hans/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/yue/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/lottery/draw-mechanism.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/yue/slot/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/lottery/prob.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/yue/live/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/lottery/types.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/yue/lottery/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/ms/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/yue/sports/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/ms/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/yue/guide/</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/ms/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/slot/rtp-guide.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/ms/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/slot/volatility.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/ms/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/live/baccarat-guide.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/ms/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/live/baccarat-myth.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/lottery/types.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/free-game.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/lottery/draw-mechanism.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/free-spin-mechanics.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/sports/odds.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/lines-vs-ways-vs-megaways.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/sports/handicap.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/maxwin.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/guide/rng.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/mechanics.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/guide/return-rate.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/rtp-guide.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/guide/basics-deep.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/rtp.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/slot/mechanics.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/slot-choose-machine.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/live/baccarat-basics-deep.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://meo5ad.com/slot/volatility.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/sports/handicap.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/sports/odds-deep.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/sports/odds.html</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/vi/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/vi/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/vi/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/vi/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/vi/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/vi/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/yue/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/yue/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/yue/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/yue/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/yue/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/yue/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/zh-hans/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/zh-hans/guide/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/zh-hans/live/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/zh-hans/lottery/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/zh-hans/slot/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://meo5ad.com/zh-hans/sports/</loc>
-    <lastmod>2025-11-27</lastmod>
-    <priority>0.80</priority>
+    <loc>https://YOUR-SEO-DOMAIN.com/sports/odds-deep.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

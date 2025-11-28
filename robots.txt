@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://meo5ad.com/sitemap.xml
+
+Sitemap: https://YOUR-SEO-DOMAIN.com/sitemap.xml
