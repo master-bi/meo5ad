@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>站內頁面索引（檢查用，非給 Google）</title>
+  <meta name="robots" content="noindex,nofollow">
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; padding: 16px; }
+    h1 { margin-bottom: 8px; }
+    ul { line-height: 1.6; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <h1>站內頁面索引（給自己檢查用）</h1>
+  <p>這個頁面是用 JavaScript 列出目前站內所有連結，方便你人工檢查。<br>
+  ⚠ 不會取代 sitemap.xml，也不是給 Google 用的。</p>
+
+  <ul id="link-list"></ul>
+
+  <script>
+    (function () {
+      var anchors = Array.prototype.slice.call(document.querySelectorAll('a[href]'));
+      var urls = anchors
+        .map(function (a) { return a.getAttribute('href'); })
+        .filter(function (href) {
+          return href &&
+                 href.indexOf('http') !== 0 &&
+                 href.indexOf('#') !== 0 &&
+                 href.indexOf('mailto:') !== 0 &&
+                 href.indexOf('javascript:') !== 0;
+        })
+        .map(function (href) {
+          if (href.charAt(0) !== '/') {
+            href = '/' + href;
+          }
+          return href.split('?')[0].split('#')[0];
+        });
+
+      var unique = Array.from(new Set(urls)).sort();
+      var ul = document.getElementById('link-list');
+      unique.forEach(function (u) {
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = u;
+        a.textContent = u;
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+    })();
+  </script>
+</body>
+</html>
